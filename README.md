@@ -1,6 +1,6 @@
 # File Form Filler Example
 
-A React example demonstrating how to form filler Fency.ai, Vite, Uppy and React Hook Form.
+A React example demonstrating how to create a form filler using Fency.ai, Vite, Uppy and React Hook Form.
 
 ## Installation
 
@@ -9,6 +9,7 @@ npm install
 ```
 
 ## Replace Publishable Key
+
 Replace the `publishableKey` inside `src/main.tsx` with your own key from [https://app.fency.ai](https://app.fency.ai)
 
 ## Run
@@ -16,7 +17,6 @@ Replace the `publishableKey` inside `src/main.tsx` with your own key from [https
 ```bash
 npm run dev
 ```
-
 
 ## Origin Article
 
