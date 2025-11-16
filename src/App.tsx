@@ -1,4 +1,4 @@
-import { useFiles, useStructuredChatCompletions } from '@fencyai/react'
+import { useCreateFiles, useStructuredChatCompletions } from '@fencyai/react'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { Alert, Button, TextInput } from '@mantine/core'
 import AwsS3 from '@uppy/aws-s3'
@@ -38,7 +38,7 @@ export default function App() {
     const form = useForm({
         resolver: zodResolver(formSchema),
     })
-    const { createFile } = useFiles({
+    const { createFile } = useCreateFiles({
         async onUploadCompleted() {
             setState('getting_file_text_content')
         },
